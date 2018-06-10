@@ -1,6 +1,6 @@
 # AutoQuad
 
-I am building an open source autonomous quadrotor using the Emlid Navio2 Raspberry Pi HAT. There are fully functional alternatives such as ArduPilot that currently exist, but I would like to implement my own using non-linear controls. This is a WIP. Feel free to contribute or fork.
+I am creating an open source autonomous quadrotor using the Emlid Navio2 Raspberry Pi HAT. There are fully functional alternatives such as ArduPilot that currently exist, but I would like to implement my own using non-linear controls. This is a WIP. Feel free to contribute or fork.
 
 ## Getting Started
 
@@ -11,7 +11,14 @@ These instructions will get you a copy of the project up and running on your loc
 The prerequisites for this project are as follows:
 
 ```
-Example
+Raspberry Pi Model 3 B
+4GB+ MicroSD card
+Emlid Navio2 HAT
+Emlid Linux - you could use normal Raspbian, you just need to install ROS and Navio Drivers. You can also use ArduPilot, but this is meant to be a personal replacement to it.
+MAVLink
+qgroundcontrol
+pigpio
+TBD
 ```
 
 ### Installing
